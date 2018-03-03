@@ -7,6 +7,7 @@ public class User {
 	private String email;
 	private String username;
 	private String password;
+	public Poll[] poll;
 	
 	public String getFirstName() {
 		return firstName;
